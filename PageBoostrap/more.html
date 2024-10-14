@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .banner {
+            position: relative;
+            height: 110vh;
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 2;
+        }
+        .navbar {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: #343a40;
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 2;
+        }
+        .navbar .nav-link {
+            color: #ffffff;
+            font-size: 1.25rem;
+        }
+        .navbar .nav-link:hover {
+            color: #ad5c27;
+        }
+        h1 {
+            font-size: 5.5rem;
+            font-weight: bold;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        .image-section {
+            margin-top: 30px;
+        }
+        .image-title {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .img-right {
+            max-width: 100%;
+            height: 100%;
+        }
+        .carousel-item img {
+            max-width: 80%; /* Ajusta el ancho máximo al 80% */
+            height: auto; /* Mantiene la proporción */
+            margin: auto; /* Centra la imagen */
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #007bff; /* Cambia el color aquí */
+            border-radius: 50%; /* Hace las flechas redondeadas */
+            width: 40px; /* Ajusta el tamaño */
+            height: 40px; /* Ajusta el tamaño */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="imagens/catemore.png" alt="Banner">
+        <div class="banner-content">
+            <h1>CATEDRAL DE MORELIA</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Catedrales
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="more.html">Catedral de Morelia</a>
+                            <a class="dropdown-item" href="dgo.html">Catedral de Durango</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mt-5">
+        <h3>La Majestuosa Catedral de Morelia</h3>
+        <h3 style="color: #ad5c27;">Sede del Primer Festival Cultural de América</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <p>La majestuosa catedral de Morelia con su órgano monumental de 4600 flautas y uno de los más importantes del continente, ha sido el escenario principal de este Festival, congregando en cada edición un promedio de 14,000 espectadores que acuden para deleitarse con la imponente sonoridad del recinto y la arquitectura de esta joya barroca, uno de los más imponentes emblemas de la época virreinal en nuestro país.</p>
+            </div>
+            <div class="col-md-6">
+                <p>La belleza insuperable de la catedral, complementada con una espectacular producción realizada con el equipo más vanguardista de iluminación arquitectónica, pantallas de última generación y audio de alta fidelidad, que armonizando con las interpretaciones musicales de calidad mundial, brindan a los asistentes una experiencia mágica e incomparable, contribuyendo así al fortalecimiento del reciente nombramiento de Morelia como ciudad Creativa de la música por la UNESCO.</p>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="imagens/more1.png" class="img-fluid" alt="Imagen 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="imagens/more2.png" class="img-fluid" alt="Imagen 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="imagens/more3.jpg" class="img-fluid" alt="Imagen 3">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Catedral de Morelia</h3>
+                    <h3 style="color: #ad5c27;">"La Corona del Estado de Michoacán"</h3>
+                    <p>La ciudad de Morelia, anteriormente Valladolid, era considerada como «El Jardín de la Nueva España» Una ciudad de virreyes llena de majestuosas construcciones en cantera rosa y amplios jardines y fuentes, con un clima perfecto.</p>
+                    <p>Si la ciudad de Morelia es la «corona» del Estado de Michoacán, podríamos decir que la Catedral es la joya de esa corona.</p>
+                    <p>Este espléndido recinto de arquitectura barroca tablerada, que brilla al centro de su ciudad, es la sede del Festival Internacional de Órgano de Morelia «Alfonso Vega Núñez». Desde 1966, de manera ininterrumpida, sus 2 torres de 66.8 metros de altura, anuncian el inicio de una nueva edición del Primer Festival Cultural de América.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/more5.jpg" class="img-right" alt="Catedral de Morelia">
+                </div>
+            </div>
+        </div>
+
+        <h2>Galeria de imagenes</h2>
+        <div id="carouselExample" class="carousel slide mt-4" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/more7.png" class="d-block mx-auto" alt="Imagen 1">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/more8.jpg" class="d-block mx-auto" alt="Imagen 2">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/more4.jpg" class="d-block mx-auto" alt="Imagen 3">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExample" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExample" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

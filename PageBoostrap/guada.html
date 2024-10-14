@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .banner {
+            position: relative;
+            height: 110vh;
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 2;
+        }
+        .navbar {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: #343a40;
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 2;
+        }
+        .navbar .nav-link {
+            color: #ffffff;
+            font-size: 1.25rem;
+        }
+        .navbar .nav-link:hover {
+            color: #ad5c27;
+        }
+        h1 {
+            font-size: 5.5rem;
+            font-weight: bold;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        .content-section {
+            display: flex;
+            align-items: flex-start;
+            margin: 30px;
+        }
+        .text-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .img-middle {
+            max-width: 300px; /* Ajusta el tamaño de la imagen */
+            height: auto;
+            display: block; /* Asegura que la imagen se centre */
+            margin: 20px auto; /* Centra la imagen */
+        }
+        .image-container {
+            text-align: center; /* Centra la imagen */
+            margin-left: 20px; /* Espacio entre texto e imagen */
+        }
+        .carousel-title {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .carousel-item img {
+            max-width: 80%; /* Ajusta el ancho máximo al 80% */
+            height: auto; /* Mantiene la proporción */
+            margin: auto; /* Centra la imagen */
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #007bff; /* Cambia el color aquí */
+            border-radius: 50%; /* Hace las flechas redondeadas */
+            width: 40px; /* Ajusta el tamaño */
+            height: 40px; /* Ajusta el tamaño */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="imagens/categuada.jpg" alt="Banner">
+        <div class="banner-content">
+            <h1>CATEDRAL DE GUADALAJARA</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Catedrales
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="more.html">Catedral de Morelia</a>
+                            <a class="dropdown-item" href="dgo.html">Catedral de Durango</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content-section">
+        <div class="text-content">
+            <h2>Catedral de Guadalajara</h2>
+            <p>Su historia inicia desde 1561 cuando inicia su construcción por Felipe II Rey de España y por consiguiente Virrey de la antigua Nueva Galicia. El Alarífe Martín Casillas fue el constructor de este majestuoso edificio en su proyecto inicial.</p>
+            <p>La primera catedral de Guadalajara se construyó frente al Teatro Degollado en 1549, a 4 cuadras de su sitio actual. En 1541 fue decretada diócesis de Nueva Galicia. En un principio la actual Catedral era un edificio modesto creado con paredes de adobe y un techo de paja.</p>
+            <p>Treinta y tres años después, el techo se incendió cuando los vecinos dispararon y las balas aterrizaron en el techo. Se dijo que el incidente ocurrió durante la celebración de una misa.</p>
+            <p>El rey Felipe de España ordenó la construcción de una nueva catedral en 1568. Se terminó en el sitio actual en 1618. Todo marchó bien durante 200 años cuando se produjo un terremoto y se desplomaron la cúpula y las torres cuadradas. Los reemplazos también fueron destruidos por un terremoto 20 años después.</p>
+            <p>Se construyeron y completaron nuevas torres en 1854 y el Papa declaró que la catedral era una basílica menor. Sin embargo, seis terremotos desde ese momento han dañado el edificio actual y la cúpula y la torre norte muestran daños estructurales.</p>
+            <p>El tiempo ha hecho mella en su cantera rosada por lo que ha sido necesario varias remodelaciones en su material de construcción. En particular dos fuertes terremotos, uno en el año 1814 y otro diez años después terminaron derribar sus torres originales.</p>
+            <p>La belleza de la catedral sorprende y es una hermosa fusión de líneas clásicas: en su mayoría de estilo barroco con torres neogóticas coronadas con azulejos amarillos de Sayula, un pueblo ubicado a unos 60 kilómetros al sur de Guadalajara. El fino interior gótico tiene 3 hermosas pequeñas capillas y nueve altares con pinturas de algunos de los mejores artistas de México. El órgano francés (ubicado sobre la entrada principal) es considerado por muchos el más grande de México. El altar está hecho de mármol y plata, y las ventanas de cristal tintado (importadas de Francia) son impresionantes.</p>
+        </div>
+        <div class="image-container">
+            <img src="imagens/histogua.jpg" alt="Imagen de la Catedral" class="img-middle">
+        </div>
+    </div>
+
+    <div class="carousel-title">Galería de la Catedral de Guadalajara</div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/gua1.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/gua2.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/gua3.png" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

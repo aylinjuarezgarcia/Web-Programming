@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .banner {
+            position: relative;
+            height: 110vh;
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(236, 230, 230);
+            text-align: center;
+            z-index: 2;
+        }
+        .navbar {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: #343a40;
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 2;
+        }
+        .navbar .nav-link {
+            color: #ffffff;
+            font-size: 1.25rem;
+        }
+        .navbar .nav-link:hover {
+            color: #ad5c27;
+        }
+        h1 {
+            font-size: 5.5rem;
+            font-weight: bold;
+        }
+        .content-section {
+            display: flex;
+            margin: 30px;
+        }
+        .text-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .text-content h2 {
+            margin-bottom: 20px;
+        }
+        .text-content p {
+            line-height: 1.6;
+        }
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .additional-section {
+            display: flex;
+            margin: 30px;
+        }
+        .additional-text {
+            flex: 1;
+            padding: 20px;
+        }
+        .additional-text h2 {
+            margin-bottom: 20px;
+        }
+        .carousel {
+            margin: 30px 0;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #007bff; /* Cambia el color aquí */
+            border-radius: 50%; /* Hace las flechas redondeadas */
+            width: 40px; /* Ajusta el tamaño */
+            height: 40px; /* Ajusta el tamaño */
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="imagens/catedrgo.jpeg" alt="Banner">
+        <div class="banner-content">
+            <h1>CATEDRAL DE DURANGO</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Catedrales
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="more.html">Catedral de Morelia</a>
+                            <a class="dropdown-item" href="dgo.html">Catedral de Durango</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content-section">
+        <div class="text-content">
+            <h2>Historia</h2>
+            <p>En 1563 durante el primer año de la Gubernatura de Francisco de Ibarra se levantó la Antigua Parroquia de la Asunción. Su santidad Pablo V creó el Obispado de Durango. En Octubre 11 de 1620, fue expedida en Roma a instancias de Felipe III rey de España se elevó a la categoría de Catedral.</p>
+
+            <p>Parroquia de la Asunción, fue una Catedral sencilla, infortunadamente tuvo una duración muy corta, solo 11 años, ya que se incendió en 1634, la noche anterior al festividad de Corpus Christi, cuando un petardo cayó en la azotea de paja del Templo, incendiando todo, perdiéndose los primeros datos de la vida de la Catedral en el estado de Durango.</p>
+                
+            <p>En 1635 se había comenzado a levantar la segunda catedral, la cual se vio afectada por el exceso de humedad y tuvo que ser derruida. La actual construcción, es la que hoy conocemos, se levantó hacia 1695, obra del arquitecto Mateo Núñez. La obra se terminó parcialmente en 1713, pero se dio por terminada de manera formal en 1844. Con la finalización de la decoración interior y altares al igual de los monumentos ya conocidos dentro de la catedral.</p>
+                
+            <p>Este año “La Catedral” cumplirá 396 años de haber sido elevada a esta categoría. Hoy en día la Catedral Basílica de Durango es propiedad de la Arquidiócesis metropolitana de Durango. Esta arquitectura cuenta con cinco naves en total, las cuales se encuentran divididas en la principal, al centro, dos laterales y dos que están ocupadas por las capillas, y una cúpula principal. El material utilizado es cantera, manteniendo un estilo Barroco novohispano en la fachada de sus accesos aunado con neoclásico y bizantino en el resto de la construcción.</p>
+        </div>
+        <div class="image-content">
+            <img src="imagens/histogro.jpg" alt="Imagen de la Catedral" class="img-right">
+        </div>
+    </div>
+
+    <div class="additional-section">
+        <div class="image-content">
+            <img src="imagens/pasillogro.jpg" alt="Interior de la Catedral" class="img-right">
+        </div>
+        <div class="additional-text">
+            <h2>Interior</h2>
+            <p>Presenta una decoración que evoca motivos bizantinos en el decorado y los frescos, así como en la cúpula, éste le fue aplicado a comienzos del siglo XX.</p>
+            <p>El altar mayor lo conforma un ciprés de estilo neoclásico, el cual resguarda la bella imagen de la Inmaculada Concepción, talla estofada y policromada del siglo XVIII.</p>
+            <p>El resto de los altares presenta imágenes de buena calidad.</p>
+            <p>El interior de la Catedral de Durango es igualmente impresionante, con techos altos y bóvedas decoradas con hermosos frescos. Los visitantes pueden admirar una gran cantidad de obras de arte religioso, incluyendo esculturas, pinturas y retablos que son representativos de la tradición católica en México. La Catedral es un lugar de gran importancia religiosa y cultural en Durango, y su belleza arquitectónica y artística la convierte en un destino imperdible para quienes visitan la ciudad.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">Galería de imágenes</h2>
+        <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/dgo1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/dgo2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/dgo3.png" class="d-block w-100" alt="Imagen 3">
+                </div>
+                <!-- Agrega más imágenes aquí -->
+            </div>
+            <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
